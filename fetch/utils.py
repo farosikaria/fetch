@@ -97,7 +97,7 @@ def get_model(model_idx):
 
     weights = get_file(
         model_list["model"][model_index],
-        PATH_TO_WEIGHTS + model_list["model"][model_index],
+        None,
         file_hash=model_list["hash"][model_index],
         cache_subdir="models",
         hash_algorithm="md5",
