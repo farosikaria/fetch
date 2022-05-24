@@ -7,7 +7,7 @@ setup(
     scripts=["bin/predict.py", "bin/train.py"],
     package_dir={"fetch": "fetch"},
     package_data={"fetch": ["models/model_list.csv", "models/*/*yaml"]},
-    url="https://github.com/devanshkv/fetch",
+    url="https://github.com/farosikaria/fetch",
     tests_require=["pytest", "pytest-cov"],
     license="GNU General Public License v3.0",
     author=["Devansh Agarwal", "Kshitij Aggarwal"],
